@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.AddBookFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/linearLayout2">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Title"
+            android:ems="10"
+            android:id="@+id/edTitle"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Author"
+            android:ems="10"
+            android:id="@+id/edAuthor"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Ingredients"
+            android:ems="10"
+            android:id="@+id/edIngredients"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Instructions"
+            android:ems="10"
+            android:id="@+id/edInstructions"/>
+        <Button
+            android:layout_margin="10dp"
+            android:text="save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnSave"/>
+        <Button
+            android:layout_marginHorizontal="10dp"
+            android:text="view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnView"/>
+    </LinearLayout>
+
+</FrameLayout>
